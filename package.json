@@ -12,6 +12,11 @@
 		"prettier:format": "prettier --config .prettierrc '**/*.{json,js,jsx,ts,tsx,css,scss,md}' --write",
 		"pre-commit": "yarn prettier:format && yarn lint"
 	},
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn prettier:format && yarn lint"
+    }
+  },
 	"jest": {
 		"preset": "jest-expo"
 	},
