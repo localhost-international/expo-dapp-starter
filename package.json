@@ -13,11 +13,6 @@
 		"pre-commit": "yarn prettier:format && yarn lint",
     "prepare": "husky install"
 	},
-	"husky": {
-		"hooks": {
-			"pre-commit": "yarn prettier:format && yarn lint"
-		}
-	},
 	"jest": {
 		"preset": "jest-expo"
 	},
