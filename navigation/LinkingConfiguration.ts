@@ -7,29 +7,29 @@
 import * as Linking from 'expo-linking';
 
 export default {
-  prefixes: [Linking.makeUrl('/')],
-  config: {
-    screens: {
-      Root: {
-        screens: {
-          Home: {
-            screens: {
-              Home: 'home',
-            },
-          },
-          Wallet: {
-            screens: {
-              WalletScreen: 'wallet',
-            },
-          },
-          Debug: {
-            screens: {
-              Debug: 'debug',
-            },
-          },
-        },
-      },
-      NotFound: '*',
-    },
-  },
+	prefixes: [Linking.makeUrl('/')],
+	config: {
+		screens: {
+			Root: {
+				screens: {
+					Home: {
+						screens: {
+							Home: 'home',
+						},
+					},
+					Wallet: {
+						screens: {
+							WalletScreen: 'wallet',
+						},
+					},
+					Debug: {
+						screens: {
+							Debug: 'debug',
+						},
+					},
+				},
+			},
+			NotFound: '*',
+		},
+	},
 };

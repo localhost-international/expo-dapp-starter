@@ -1,6 +1,6 @@
 # Expo DApp Starter
-> Expo, React Native, TypeScript, Hardhat and Ethers
 
+> Expo, React Native, TypeScript, Hardhat and Ethers
 
 ## What is this?
 
@@ -11,22 +11,21 @@ A starter kit/boilerplate for building:
 
 ...with:
 
-* Expo (React Native)
-	* TypeScript
-	* Ethers (web3 provider)
-	* Styled Components
-* Hardhat
-	* Solidity
-	* Ethers
-
+- Expo (React Native)
+  - TypeScript
+  - Ethers (web3 provider)
+  - Styled Components
+- Hardhat
+  - Solidity
+  - Ethers
 
 ## How does it work?
 
 Run the native app:
 
-* `yarn`
-* `expo start`
+- `yarn`
+- `expo start`
 
 Run the local node/deploy contracts:
 
-* `TODO`
+- `TODO`

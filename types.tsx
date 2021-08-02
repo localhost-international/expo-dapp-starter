@@ -4,24 +4,24 @@
  */
 
 export type RootStackParamList = {
-  Root: undefined;
-  NotFound: undefined;
+	Root: undefined;
+	NotFound: undefined;
 };
 
 export type BottomTabParamList = {
-  Home: undefined;
-  Wallet: undefined;
-  Debug: undefined;
+	Home: undefined;
+	Wallet: undefined;
+	Debug: undefined;
 };
 
 export type TabWalletParamList = {
-  WalletScreen: undefined;
+	WalletScreen: undefined;
 };
 
 export type TabHomeParamList = {
-  HomeScreen: undefined;
+	HomeScreen: undefined;
 };
 
 export type TabDebugParamList = {
-  DebugScreen: undefined;
+	DebugScreen: undefined;
 };
