@@ -10,7 +10,8 @@
 		"lint": "eslint . --ext .ts,.tsx,.js,.jsx,.json",
 		"lint:fix": "eslint . --ext .ts,.tsx,.js,.jsx,.json --fix",
 		"prettier:format": "prettier --config .prettierrc '**/*.{json,js,jsx,ts,tsx,css,scss,md}' --write",
-		"pre-commit": "yarn prettier:format && yarn lint"
+		"pre-commit": "yarn prettier:format && yarn lint",
+    "prepare": "husky install"
 	},
 	"husky": {
 		"hooks": {
